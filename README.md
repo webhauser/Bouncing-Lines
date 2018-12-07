@@ -3,4 +3,16 @@ This project is a Java arcade game, where there is a player and enemies on a ter
 
 ## How to compile?
 
+```bash
+git clone https://github.com/webhauser/Bouncing-Lines.git
+cd Bouncing-Lines
+javac BouncingLines.java Player.java Enemy.java Pixmap.java
+```
+
 ## How to run?
+
+```bash
+java BouncingLines 800 400
+```
+
+The command above opens a 800x400 size game window. 
